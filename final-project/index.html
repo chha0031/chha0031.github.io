@@ -3,231 +3,211 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML Page</title>
+    <title>Final Project</title>
     <link rel="stylesheet" href="css/main.css">
+
+    <script src="https://kit.fontawesome.com/5f23fef3f2.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+
 </head>
-
 <body>
-    <header>
-        <div class="wrapper">
-            <img src="images/logo.png" alt="logo of three yellow stars">
-            <!-- added a photo for main logo -->
+    <header> 
+        <div class="wrapper1 navigation">
+            <div class="logostarcontainer">
+                <img src="images/logo star.png" alt="logo star" class="logo star">
+            </div>
+        <!--add picture of logo-->    
             <nav>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#sale">Services</a></li>
-                    <li><a href="#team">Team</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
+                <ul class="navigation"> 
+                    <li class="home">Home</li>
+                    <li class="aboutus">About Us</li>
+                    <li class="service">Services</li>
+                    <li class="ourteam">Team</li>
+                    <li class="contact">Contact</li>
+                </ul>
             </nav>
-    </div>
-  </header>
+            <div class="find">
+                <form action="index.html" method="post">
+                    <input type="text" placeholder="Search" name="search" id="search">
+                    <label for="search"><i class="fa-solid fa-magnifying-glass"></i></label>
+                </form>
+            </div>
+        </div> 
+    </header>
 
-  <main>
-    <section class="hero-section">
-      <img class="hero-image" src="hero.jpg" alt="Three Star Media Image">
-      <div class="wrapper">
-        <h1>Welcome to Three Star Media</h1>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, esse assumenda possimus nihil quidem est.
-          Cumque blanditiis, at, voluptatum architecto quidem consectetur dolor nihil, perspiciatis itaque sunt in dolorem labore.
-        </p>
-        <button class="button">Connect with us</button>
-      </div>
-    </section>
+    <main>
+        <section class="welcome">
+            <div class="wrapper1">
+                <h1>Welcome to Three Star Media</h1>
+                <p>Welcome to Three star Media, where we transcend the boundaries of a typical media company. We are a collective of storytellers, pioneers, and visionaries. Our purpose is to enrapture our audience using a fusion of captivating content, state-of-the-art technology, and imaginative artistry. Whether you're in search of amusement, knowledge, or motivation, you've arrived at the perfect destination.</p>
+                <button class="button">Connect with us <i class="fa-solid fa-caret-right"> 
+                </i></button>
+            </div> 
+        </section>
 
-    <section id="about-us" class="about-us-section">
-       <div class="section">
-         <img class="about-us-image" src="images/about-us.jpg" alt="About Three Star Media">
-         <div class="text">
-           <h2>About Us</h2>
-            <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius obcaecati, aspernatur harum illum magnam vitae,
-            cupiditate perspiciatis consequuntur asperiores molestiae velit reprehenderit ducimus, temporibus ipsum iste ab
-            magni pariatur aliquid!
-            </p>
-            <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis incidunt natus fuga placeat nostrum ratione?
-            Eos, voluptatum? Voluptates, temporibus id. Iusto, earum eveniet magnam temporibus ullam nostrum exercitationem
-            nobis blanditiis.
-            </p>
-       </div>
-        </div>
-    </section>
-    <section id="service" class="wrapper our-services-section">
-        <h2>Our Services</h2>
-        <article class="service">
-          <header>
-            <img src="images/digital.jpg" alt="Digital Services" class="services-image">
-          </header>
-          
-          <h3>Digital Transformation</h3>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo similique sint sed recusandae fugit voluptas ad
-            corrupti rerum soluta rem culpa officia veniam accusamus porro laudantium, laboriosam incidunt ut reprehenderit.
-          </p>
-          <button class="button">Digital Plans</button>
-          
-          <header>
-            <img src="images.jpg" alt="Marketing service" class="service-image">
-          </header>
-          <h3>Marketing</h3>
-          <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo similique sint sed recusandae fugit voluptas ad
-          corrupti rerum soluta rem culpa officia veniam accusamus porro laudantium, laboriosam incidunt ut reprehenderit.
-          </p>
-          <button class="button">Marketing Plans </button>
-            <img src="images.jpg" alt="video" class="service-image">
-           <h3>Video Production</h3>
-          <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo similique sint sed recusandae fugit voluptas ad
-          corrupti rerum soluta rem culpa officia veniam accusamus porro laudantium, laboriosam incidunt ut reprehenderit.
-          </p>
-           <button class="button">Video Plans </button>
-        <img src="images.jpg" alt="web service" class="service-image">
-        <h3>Web Production</h3>
-        <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo similique sint sed recusandae fugit voluptas ad
-            corrupti rerum soluta rem culpa officia veniam accusamus porro laudantium, laboriosam incidunt ut reprehenderit.
-          </p>
-          <button class="button">Web Plans </button>
-          <img src="print.jpg" alt="print service" class="service-image">
-          <h3>Print</h3>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo similique sint sed recusandae fugit voluptas ad
-            corrupti rerum soluta rem culpa officia veniam accusamus porro laudantium, laboriosam incidunt ut reprehenderit.
-          </p>
-          <button class="print">Print Plans</button>
-          
-  
-        </article>
-      </section>
-  
-      <section class="vision">
-        <img class="vision-image" src="vision.jpg" alt="Vision">
-        <div class="wrapper">
-          <h3>Vision</h3>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint nostrum quam doloremque reiciendis numquam
-            necessitatibus repudiandae enim. Nemo ipsa natus, accusantium quia deleniti sed, aliquid ratione inventore
-            porro iure?
-          </p>
-          <button class="button">Learn More</button>
-        </div>
-      </section>
-      </section>
-  
-      
-    <div class="wrapper">
-      <h3>Hours of operation</h3>
-      <table class="our-hours">
-        <tr>
-          <th>Days</th>
-          <th>Hours</th>
-        </tr>
-        <tr>
-          <td>Monday - Friday</td>
-          <td>9AM - 6PM</td>
-        </tr>
-        <tr>
-          <td>Saturday - Sunday</td>
-          <td>Closed</td>
-        </tr>
-      </table>
-    </div>
-</main>
+        <!-- add background colour-->
+        <section class="about">
+            <div class="wrapper1 clearfix">
+                <!-- image is on left of the paragraph -->
+                <div class="flo ">
+                    <img src="images/about us.jpeg" alt="about us">
+                </div>
+                <div class="about">
+                    <h2>About Us</h2>
+                    <p>At Three Star Media, we transcend the role of content creators to become creators of experiences. Our expedition commenced with a modest yet impactful notion: to revolutionize the manner in which stories are narrated and experiences are exchanged.Empowered by boundless creativity and forward thinking, our team has evolved into a center of inspiration, ingenuity, and knowledge. Our dedication to media goes beyond the usual, as we continually challenge limits and venture into new and unexplored domains.</p>
+                </div> 
+            </div>                
+        </section>
 
-<footer>
-  <div class="wrapper">
-    <small>&copy; Copyright Three Star Media, 2023</small>
-    <small>All images are taken from <a href="https://unsplash.com/">Unsplash</a></small>
-  </div>
-</footer>
-</body>
-</html>
+        <section class="wrapper1">
+            <div class="services">
+                <h2>Our Services</h2>
+               
+                <div class="serviceboxes">
+                    <div class="digi">
+                        <img src="images/services.jpeg" alt="digital transformation">
+                        <h3>Digital Transformation</h3>
+                        <p>In a time marked by technological advancements, Three star Media is at the forefront of revolutionizing the media industry through digital transformation. Our steadfast dedication to being at the forefront of progress has catapulted us into an uncharted territory of opportunities, where established conventions intersect with cutting-edge technology.</p>
+                        <button>Digital Plans<i class="fa-solid fa-caret-right"></i></button>
+                    </div>
+
+                    <div class="market">
+                        <img src="images/marketing.jpeg" alt="marketing">
+                        <h3>Marketing</h3>
+                        <p>Are you prepared to embark on an enthralling expedition into the realm of media? Seek no more, for [Media Company Name] is your ultimate destination. We transcend the label of a mere media company – we offer an interactive journey that animates your passions. Come with us as we revolutionize your interactions with content, technology, and innovation.</p>
+                        <button>Marketing Plans <i class="fa-solid fa-caret-right"> </i></button>
+                    </div>
+
+                    <div class="videopro">
+                        <img src="images/video production.jpeg" alt="video">
+                        <h3>Video Production</h3>
+                        <p>Video production encompasses a range of phases, spanning from initial planning to final post-production, demanding meticulous organization and teamwork to craft top-notch content. Successful video creation hinges on adept communication and harmonized efforts, ensuring that the end products resonate with viewers and adhere to the objectives of your media enterprise.</p>
+                        <button>Video Plans <i class="fa-solid fa-caret-right"></i></button>
+                    </div>
+
+                    <div class="webdev">
+                        <img src="images/web develpoment.jpeg" alt="web">
+                        <h3>Web Development</h3>
+                        <p>A media company website demands thoughtful evaluation of design, features, and how content is presented. Achieving a prosperous website involves combining imaginative design, technical proficiency, and user-centered functionality to captivate your audience and effectively display your content.</p>
+                        <button>Web Plans <i class="fa-solid fa-caret-right"></i></button>
+                    </div>
+
+                    <div class="printing">
+                        <img src="images/print.png" alt="print">
+                        <h3>Print</h3>
+                        <p>Executing print production for a media company demands meticulousness, close teamwork between design and production units, and strict adherence to quality benchmarks in order to generate visually captivating and influential printed content. The print production process encompasses the creation of diverse printed items such as magazines, newspapers, brochures, posters, and additional materials.</p>
+                        <button>Print Plans <i class="fa-solid fa-caret-right"></i></button> 
+                    </div>
+
+                </div>              
+            </div>               
+        </section>
+
+        <section class="vision">
+            <div class="wrapper1">
+                <h3>Our Vision</h3>  
+                 <!-- Insert a background picture -->
+                <p>The vision of a media company captures its aspirational path and fundamental objective. It functions as a guiding principle that influences the company's objectives, approaches, and activities.</p>
+                <button>Learn More <i class="fa-solid fa-caret-right"></i></button>
+            </div>               
+        </section>
+
+        <section>
+            <div class="wrapper1">
+                <h2>Our Team</h2>
+                <div class="team">
+                    <img src="images/Kim Taehyung.jpeg" alt="kim" class="kim">                   
+                    <div class="tae">
+                        <h3>Kim Taehyung</h3>
+                        <h4>CEO and Co-owner</h4>
+                        <p>"Fostering Creative Empowerment and Innovation: In my role as the CEO of this media enterprise, I envision a vibrant atmosphere where the potential of creativity is boundless. Our purpose is to revolutionize storytelling using inventive methods that engage and deeply connect with a worldwide audience. Through nurturing a spirit of teamwork, inquisitiveness, and perpetual advancement, our goal is to expand the horizons of media, stimulate fresh outlooks, and establish a lasting heritage that spans eras."</p>
+                    </div>
+                    <img src="images/Jeon Jungkook.jpg" alt="jeon" class="jeon">                   
+                    <div class="jung">
+                        <h3>Jeon jungkook</h3>
+                        <h4>CFO and Co-owner</h4>
+                        <p>"Pioneering Financial Distinction for Future Advancement: In my role as the CFO of this thriving media enterprise, my focus is on fortifying our fiscal bedrock to support our ambitions. I aspire to steer our financial tactics with meticulousness and ingenuity, enabling us to broaden our reach and embark on uncharted endeavors. Through the cultivation of effective resource utilization, integration of emerging technologies, and the cultivation of collaborative synergy, we will forge a resilient financial structure that propels us toward enduring achievements and solidifies our role as industry pioneers."</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact">
+            <div class="wrapper1">
+                <h2>Contact Us</h2>
+                <div class="info">
+                    <!-- insert a form -->
+                    <div class="message">
+                        <h3>Send us a message</h3>
+                        <form action="#" method="post">
+                            <label for="fullname">Full Name</label>
+                            <input type="text" id="name">
+
+                            <label for="email">Email</label>
+                            <input type="text" id="email">
+
+                            <label for="message">Message</label>
+                            <textarea id="message"></textarea> 
+                        </form>
+                        <button>Send</button>
+                    </div>
+                    <div class="hours">
+                        <h3>Hours of operation</h3>
+                        <!-- table representing hours of work -->
+                        <div>
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th class="long">Days</th>
+                                        <th>Hours</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="long">Monday - Friday</td>
+                                        <td>9 AM - 6 PM</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="long">Saturday - Sunday</td>
+                                        <td>Closed</td>
+                                    </tr>
+                                </tbody>                      
+                            </table>
+                        </div>
+                    </div>
+
+                    <div class="location">
+                        <h3>Location</h3>
+                        <!-- add a location here -->
+                        
+                       <iframe
+                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2803.9444565900285!2d-75.75750062361824!3d45.349933471072255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1690933025672!5m2!1sen!2sca"
+                            width="600"
+                            height="450"
+                            style="border: 0"
+                            allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"
+                            >
+                       </iframe>
 
 
-<section id="team" class="wrapper our-team">
-      <article class="our-team-article">
-        <header>
-          <img src="images/kim.jpg" alt="Kim Taehyung" />
-        </header>
-        <div class="content">
-          <h3>Kim Taehyung</h3>
-          <h4>CEO and Co-owner</h4>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat
-            dolore ex laudantium, officiis possimus rem eaque itaquecupiditate rerum molestias. Vitae minus adipisci cumque voluptatem
-            ad laborum non esse voluptates?
-          </p>
-        </div>
-      </article>
-      <article class="our-team-article">
-        <img src="images/jeon.jpg" alt="Jeon Jungkook" />
-        <header>
-          <div class="content">
-            <h3>Jeon Jungkook</h3>
-            <h4>CEO and Co-owner</h4>
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos excepturi qui soluta unde hic ea dolorum ipsum perspiciatis.
-              Tenetur nisi earum in corrupti minima mollitia esse officia qui quibusdam cupiditate.
-            </p>
-          </div>
-        </header>
-      </article>
-    </section>
-    <section id="team" class="wrapper our-team">
-  </section>
+                        
+                    </div>
+                </div>  
+            </div> 
+        </section>              
+    </main>
 
-  <section id="contact-us" class="wrapper">
-    <h2>Contact information</h2>
-    <div class="form-grid">
-      <form action="" class="contact-form">
-        <h3>Send us a message</h3>
-        <label for="name">Full Name</label>
-        <input id="name" name="name" type="text">
-        <label for="email">Email</label>
-          <input id="email" name="email" type="email">
-          <label for="message">Message</label>
-          <textarea id="message" name="message"></textarea>
-        </form>
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d22431.414785155288!2d-75.79167533130021!3d45.35028891236865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d45.3472516!2d-75.7862481!4m5!1s0x4cce071f3025ba19%3A0x4e8b1cef296bbd38!2sAlgonquin%20College%20-%20Building%20B%2C%201385%20Woodroffe%20Ave%2C%20Nepean%2C%20ON%20K2G%201V8!3m2!1d45.348039!2d-75.7596014!5e0!3m2!1sen!2sca!4v1690836923683!5m2!1sen!2sca"
-          width="600"
-          height="450"
-          style="border: 0"
-          allowfullscreen=""
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
-        ></iframe>
-      </div>
-    </section>
-
-    <div class="wrapper">
-      <h3>Hours of operation</h3>
-      <table class="our-hours">
-        <tr>
-          <th>Days</th><th>Hours</th>
-        </tr>
-        <tr>
-          <td>Monday - Friday</td>
-          <td>9AM - 6PM</td>
-        </tr>
-        <tr>
-          <td>Saturday - Sunday</td>
-          <td>Closed</td>
-        </tr>
-      </table>
-    </div>
-  </main>
-
-  <footer>
-    <div class="wrapper">
-      <small>&copy; Copyright Three Star Media, 2023</small>
-      <small>All images are taken from <a href="https://unsplash.com/">Unsplash</a></small>
-    </div>
-  </footer>
+    <footer>
+        <div class="wrapper1">
+            <p>&copy;Copyright Three Star Media, 2020</p>
+            <p class="lastline">All images are taken from <a href="https://unsplash.com/">Unsplash</a></p>  
+        </div>      
+    </footer>
 </body>
 </html>
